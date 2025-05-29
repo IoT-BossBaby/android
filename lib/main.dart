@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mjpeg/flutter_mjpeg.dart';
 import 'Screen/temperture_2.dart';
 import 'Screen/buzzer.dart';
+import 'Screen/Capture.dart';
 import 'Screen/VideoStream.dart';
 
 // config 파일 -> 서버 주소 저장(없으면 수동 입력)
@@ -59,7 +60,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     final pages = <Widget>[
-      const SearchScreen(),
+      const ShakeCaptureScreen(),
       VideoStreamScreen(),
       const HumidityBuzzerScreen(),
       const BuzzerControlScreen(),

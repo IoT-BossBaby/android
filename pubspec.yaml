@@ -38,6 +38,9 @@ dependencies:
     # → ESP-EYE MJPEG 스트림을 띄우기 위한 패키지
   flutter_mjpeg: ^2.0.4          # ← 이 줄을 추가하세요
   web_socket_channel: ^2.4.0
+  sensors_plus: ^6.1.1
+  screenshot: ^3.0.0
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:

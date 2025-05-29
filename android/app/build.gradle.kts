@@ -19,6 +19,9 @@ android {
         jvmTarget = JavaVersion.VERSION_11.toString()
     }
 
+    // sensors_plus가 요구하는 NDK 버전
+    ndkVersion = "27.0.12077973"
+
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.src"
